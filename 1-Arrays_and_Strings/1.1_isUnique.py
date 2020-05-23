@@ -1,7 +1,8 @@
 class Solution:
 
     def is_unique(self,s):
-        # # Using arrays
+
+        # # Using boolean arrays (without data structure)
         # occurence = [False] * 128
         # for ch in s:
         #     if occurence[ord(ch)]:
