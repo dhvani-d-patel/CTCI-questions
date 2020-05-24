@@ -32,7 +32,6 @@ class Solution():
 
 
         # Bit manipulation, saves space complexity
-
         bit_vector = 0
         for ch in s:
             if ch != ' ':
