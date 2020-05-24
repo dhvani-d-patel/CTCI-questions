@@ -2,12 +2,16 @@ class Solution():
 
     def URLify(self,l,true_length):
         space_count = 0
+
         for idx in range(true_length):
             if l[idx] == ' ':
                 space_count += 1
-        print(space_count)
+
+
         actual_length = true_length + (space_count*2) - 1
-        print(actual_length)
+
+        l = l[:actual_length+1]
+
         for idx in range(true_length-1,-1,-1):
             if l[idx] == ' ':
                 l[actual_length] = '0'
