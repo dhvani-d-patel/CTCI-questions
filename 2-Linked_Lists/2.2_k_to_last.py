@@ -41,6 +41,8 @@ class Solution:
         # forward = head
         #
         # for i in range(k):
+        #     if not forward:
+        #         return None
         #     forward = forward.next
         #
         # while forward:
